@@ -1,0 +1,115 @@
+
+hr {
+  height: 7px;
+  margin: var(--unit) 0;
+  border: 0;
+  border-top: 7px solid #000;
+}
+.underline {
+  padding-bottom: 1rem;
+  border-bottom: 7px solid #000;
+}
+.bg-cover {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.img-line {
+  height: 1.1em;
+  width: auto;
+  vertical-align: bottom;
+}
+@media (--viewport-md) {
+  .img-float-right {
+    float: right;
+    padding: 0 0 1em 1em;
+    max-width: 50%;
+  }
+}
+.nowrap {
+  /*white-space: nowrap;*/
+  flex-wrap: nowrap;
+}
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.vspace-top {
+  margin-top: 0.8em;
+}
+.align-left,
+.text-left {
+  text-align: left;
+}
+.align-right,
+.text-right {
+  text-align: right;
+}
+.align-center,
+.text-center {
+  text-align: center;
+}
+
+@media (--viewport-md) {
+  .col-2 {
+    columns: 2;
+    column-gap: 60px;
+  }
+}
+
+@media (--viewport-xs-only) {
+  .hidden-xs {
+    display: none;
+  }
+}
+@media (--viewport-md) {
+  .hidden-md {
+    display: none;
+  }
+}
+
+.video-banner {
+  object-fit: cover;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+}
+.video-container video,
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+} */
+.clearfix:before,
+.clearfix:after,
+.cf:before,
+.cf:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix:after,
+.cf:after {
+  clear: both;
+}
+.clearfix,
+.cf {
+  min-height: 0;
+}
