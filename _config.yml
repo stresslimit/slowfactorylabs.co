@@ -1,4 +1,23 @@
-# Build settings
+---
+title: Slow Factory Labs
+timezone: America/New_York
+future: true
+permalink: pretty
+
+collections:
+  pages:
+    title: Pages
+    output: true
+    permalink: "/:path"
+
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+
+
 include: [
   _pages
 ]
@@ -20,4 +39,3 @@ exclude: [
   vendor/ruby/,
   yarn.lock
 ]
-permalink: /:title/
