@@ -1,6 +1,6 @@
 ---
 title: Current Hiring
-layout: text
+layout: jobs
 ---
 
 ## Lead Scientist
