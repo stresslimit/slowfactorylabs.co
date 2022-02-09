@@ -12,10 +12,11 @@ Slow Factory Labs is building a world where the creation of materials has an ove
 
 **You:**
 
-* Realize deeply that we need to fundamentally redesign all human systems, and want to build science-based ecosystems
-* Have expertise with biofabrication methods and systems, ideally SCOBY
+* Are inspired to fundamentally redesign all human systems, and want to build science-based regenerative ecosystems
+* Have expertise with biofabrication methods and systems, ideally with SCOBY cultures
 * Have a love of standardizing systems and building sustainable solutions
 * Love the idea that nature can help us create materials we need in a more deeply regenerative way
+* Are inspired by both research and applied science to push innovations forward in the world
 
 
 **We:**
