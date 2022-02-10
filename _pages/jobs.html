@@ -1,0 +1,16 @@
+---
+title: Jobs & Freelance
+---
+
+<div class="container">
+
+  <p class="title-md">Help us Turn Systems into Ecosystems</p>
+  <p class="title-sm">Currently seeking:</p>
+
+  {% for job in site.jobs %}
+
+    <p><a href="{{ job.url }}">{{ job.title }}</a></p>
+
+  {% endfor %}
+
+</div>

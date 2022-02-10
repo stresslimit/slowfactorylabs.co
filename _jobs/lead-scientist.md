@@ -1,10 +1,6 @@
 ---
-title: Current Hiring
-layout: jobs
+title: Lead Scientist
 ---
-
-## Lead Scientist
-{: .title-md}
 
 Slow Factory Labs is hiring a lead scientist for our early stage green chemistry new materials biofabrication company. We create a plant-based, biodegradable alternative leather for the fashion and automotive industries, based on a waste to resource model, using no plastic or fossil fuels.
 

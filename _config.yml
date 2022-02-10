@@ -9,6 +9,9 @@ collections:
     title: Pages
     output: true
     permalink: "/:path"
+  jobs:
+    title: Jobs
+    output: true
 
 defaults:
 - scope:
@@ -16,6 +19,11 @@ defaults:
     type: pages
   values:
     layout: default
+- scope:
+    path: ''
+    type: jobs
+  values:
+    layout: jobs
 
 
 include: [
