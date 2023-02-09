@@ -11,6 +11,10 @@
   width: 150px;
 }
 @media (--viewport-md) {
+  /* .footer {
+    position: fixed;
+    bottom: 0;
+  } */
   .sf-logo{
     margin-left: -32px;
   }
@@ -21,9 +25,28 @@
 }
 
 
+.text-content {
+  background: rgba(255,255,255,.7);
+  /* padding-bottom: 10rem; */
+}
+
 .bg-slow {
   height: 100%;
   width: 100%;
   background: url(/assets/images/bg-SlowLabs_Teaser.png) 50% 0% no-repeat;
   background-size: cover;
+}
+
+
+.footer {
+  background: rgba(255,255,255,.7);
+}
+
+.footerlogoblock {
+  padding: 2rem 2.5rem 3rem 0;
+  display: inline-block;
+}
+.footerlogoblock img {
+  width: 10rem;
+  padding-bottom: 5px;
 }
